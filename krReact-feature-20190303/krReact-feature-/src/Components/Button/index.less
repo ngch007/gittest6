@@ -1,0 +1,26 @@
+@import '../../common/style/color.less';
+div.n-button.x{
+  display: flex;
+  .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #bbc4d4;
+    padding: 10px;
+    margin: 0 5px;
+    background: @plan-nav-color;
+    border: 1px solid @plan-nav-color;
+    box-sizing: border-box;
+    cursor: pointer;
+    &.active,&:hover{
+      border-color: @plan-nav-border-color;
+    }
+    img{
+      width: 40px;
+    }
+    .text{
+      display: inline-block;
+      text-align: center;
+    }
+  }
+}

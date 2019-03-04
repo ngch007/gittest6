@@ -1,0 +1,47 @@
+export default [
+  {
+    title:'热门',
+    name:'home',
+    children:[
+      {
+        title:'进行中',
+        url:'/',
+      },
+      {
+        title:'未开始',
+        url:'/task/ongoing/home',
+       
+      },
+      {
+        title:'历史任务',
+        url:'/task/ongoing/list',
+      }
+    ]
+  },{
+    title:'其他热门',
+    name:'homeOther',
+    children:[
+      {
+        title:'进行中--',
+        url:'/task/ongoing/home',
+      },
+      {
+        title:'未开始--',
+        url:'/task/unfinished/list',
+      },
+      {
+        title:'历史任务--',
+        url:'/task/historica/list'
+      }
+    ]
+  },
+  {
+    title:'外部链接',
+    
+    url:'https://ant.design'
+  },
+  {
+    title:'不可点击',
+    url:''
+  },
+]
