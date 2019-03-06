@@ -1,12 +1,13 @@
 import React from 'react';
 import Dialog_tree from 'components/DialogTree/dialog_tree'
 import TabsFlag from 'components/DialogTree/tabsFlag'
+
 export default class Basic extends React.Component {
 
 	constructor(props,context){
 		super(props, context);
 			this.state = {
-				visibleTree: true ,
+				visibleTree: false ,
 			};
 	}
 	handleCancelTree = () => {
@@ -21,9 +22,9 @@ export default class Basic extends React.Component {
 				<div>
 				 {visibleTree && <Dialog_tree  />}
 				</div>
-				<div>	
+				{/* <div>	
 				<TabsFlag/>
-				</div>
+				</div> */}
 				</div>
 				
 				
